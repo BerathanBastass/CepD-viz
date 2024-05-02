@@ -126,11 +126,12 @@ class _CurrencyConverterViewState extends State<CurrencyConverterView> {
                   if (amount > 0) {
                     BlocProvider.of<CurrencyConverterCubit>(context).convertCurrency(amount, selectedCurrency);
                   } else {
+
                   }
                 },
-                idleStateWidget:  Text(
-                  style: const TextStyle(color: Colors.white),
+                idleStateWidget: Text(
                   AppLocalizations.of(context).translate('Dönüştür'),
+                  style: const TextStyle(color: Colors.white),
                 ),
                 loadingStateWidget: const CircularProgressIndicator(
                   strokeWidth: 5.0,
@@ -140,6 +141,7 @@ class _CurrencyConverterViewState extends State<CurrencyConverterView> {
                 useEqualLoadingStateWidgetDimension: true,
                 width: 150.0,
                 height: 70.0,
+                borderRadius: 25,
                 buttonColor: Colors.black,
               ),
             ],
