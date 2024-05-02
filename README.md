@@ -1,7 +1,7 @@
 # CepDöviz
 
 ## ScreenShots
-![ScreenShots](assets/app_photo1.png)
+![ScreenShots](assets/app_photos12.png)
 ![ScreenShots](assets/app_photo2.png)
 Screens of the application
 
